@@ -169,8 +169,13 @@ prompt_dir() {
 prompt_virtualenv() {
   if [[ -n $CONDA_PROMPT_MODIFIER ]]; then
     prompt_segment black default ${CONDA_PROMPT_MODIFIER:1:-2}
+  elif [[ -n $VIRTUAL_ENV ]]; then
+    local venv_name
+    venv_name=$(basename "$VIRTUAL_ENV")
+    prompt_segment black default "($venv_name)"
   fi
 }
+
 
 # Status:
 # - was there an error
