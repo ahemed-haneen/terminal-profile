@@ -3,7 +3,7 @@ set -eux pipefail
 
 # Install Powerline for VIM.
 pip3 install --user powerline-status
-sudo cp configs/.vimrc ~/.vimrc
+sudo cp ../configs/.vimrc ~/.vimrc
 
 if [ -d "./fonts" ]; then
     rm -rf fonts/
