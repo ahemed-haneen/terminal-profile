@@ -9,7 +9,7 @@ app. For MacOS, I use [iTerm2](https://iterm2.com/).
 > will be different. You'll just have to open the `.sh` files and figure out how to adapt it to MacOS
 > until I can prepare MacOS commands.
 
-These commands were last tested on May 2022 on Ubuntu 20.
+This is an ongoing work to improve the developer environments and are currated to the kind of work I do and I contribute to.
 
 # Prerequisites
 
